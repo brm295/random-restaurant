@@ -1,0 +1,90 @@
+SET NAMES 'utf8mb4';
+
+CREATE SCHEMA IF NOT EXISTS `random_restaurant` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+USE `random_restaurant`;
+
+CREATE TABLE `restaurant` (
+  `name` varchar(255) NOT NULL,
+  PRIMARY KEY (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO `restaurant` (`name`) VALUES ('Annie Mae''s Wing Stop');
+INSERT INTO `restaurant` (`name`) VALUES ('Applebee''s Grill + Bar');
+INSERT INTO `restaurant` (`name`) VALUES ('Arby''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Black Creek Tavern');
+INSERT INTO `restaurant` (`name`) VALUES ('Bojangles');
+INSERT INTO `restaurant` (`name`) VALUES ('Buffalo Wild Wings');
+INSERT INTO `restaurant` (`name`) VALUES ('Captain D''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Casa Fiesta');
+INSERT INTO `restaurant` (`name`) VALUES ('Chick-fil-A');
+INSERT INTO `restaurant` (`name`) VALUES ('Chicken Guy!');
+INSERT INTO `restaurant` (`name`) VALUES ('Chicken Salad Chick');
+INSERT INTO `restaurant` (`name`) VALUES ('Chili''s Grill & Bar');
+INSERT INTO `restaurant` (`name`) VALUES ('Chipotle Mexican Grill');
+INSERT INTO `restaurant` (`name`) VALUES ('Cracker Barrel Old Country Store');
+INSERT INTO `restaurant` (`name`) VALUES ('Dairy Queen');
+INSERT INTO `restaurant` (`name`) VALUES ('Domino''s Pizza');
+INSERT INTO `restaurant` (`name`) VALUES ('El Patrón');
+INSERT INTO `restaurant` (`name`) VALUES ('Firehouse Subs');
+INSERT INTO `restaurant` (`name`) VALUES ('Five Guys');
+INSERT INTO `restaurant` (`name`) VALUES ('Full Moon Bar-B-Que');
+INSERT INTO `restaurant` (`name`) VALUES ('Guthrie''s Chicken Fingers');
+INSERT INTO `restaurant` (`name`) VALUES ('Hamburger Heaven');
+INSERT INTO `restaurant` (`name`) VALUES ('Hardee''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Huddle House');
+INSERT INTO `restaurant` (`name`) VALUES ('Jack''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Jersey Mike''s Subs');
+INSERT INTO `restaurant` (`name`) VALUES ('Jim ''N Nick''s Bar-B-Q');
+INSERT INTO `restaurant` (`name`) VALUES ('KFC');
+INSERT INTO `restaurant` (`name`) VALUES ('Krazy Chicken');
+INSERT INTO `restaurant` (`name`) VALUES ('Krystal');
+INSERT INTO `restaurant` (`name`) VALUES ('Kumo');
+INSERT INTO `restaurant` (`name`) VALUES ('Le Golden Pizza');
+INSERT INTO `restaurant` (`name`) VALUES ('Little Caesars Pizza');
+INSERT INTO `restaurant` (`name`) VALUES ('Logan''s Roadhouse');
+INSERT INTO `restaurant` (`name`) VALUES ('Lolo''s BBQ & Hotdogs');
+INSERT INTO `restaurant` (`name`) VALUES ('LongHorn Steakhouse');
+INSERT INTO `restaurant` (`name`) VALUES ('Los Arcos');
+INSERT INTO `restaurant` (`name`) VALUES ('Mad Pies Restaurant & Bar');
+INSERT INTO `restaurant` (`name`) VALUES ('Majestic Pies');
+INSERT INTO `restaurant` (`name`) VALUES ('Mama''s country cooking');
+INSERT INTO `restaurant` (`name`) VALUES ('Mama''s Country Grill');
+INSERT INTO `restaurant` (`name`) VALUES ('McDonald''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Mi Barrio Mexican');
+INSERT INTO `restaurant` (`name`) VALUES ('Milo''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Ming''s Garden');
+INSERT INTO `restaurant` (`name`) VALUES ('Moe''s Southwest Grill');
+INSERT INTO `restaurant` (`name`) VALUES ('Monita''s Bakery');
+INSERT INTO `restaurant` (`name`) VALUES ('Mugshots Grill and Bar');
+INSERT INTO `restaurant` (`name`) VALUES ('Olive Garden');
+INSERT INTO `restaurant` (`name`) VALUES ('Our Place');
+INSERT INTO `restaurant` (`name`) VALUES ('Outback Steakhouse');
+INSERT INTO `restaurant` (`name`) VALUES ('Panera Bread');
+INSERT INTO `restaurant` (`name`) VALUES ('Papa Johns Pizza');
+INSERT INTO `restaurant` (`name`) VALUES ('Pasquale''s Pizza & Pasta');
+INSERT INTO `restaurant` (`name`) VALUES ('Pizza Hut');
+INSERT INTO `restaurant` (`name`) VALUES ('Porky''s Pride Smokehouse');
+INSERT INTO `restaurant` (`name`) VALUES ('Shrimp Basket');
+INSERT INTO `restaurant` (`name`) VALUES ('Sneaky Pete''s Hotdogs');
+INSERT INTO `restaurant` (`name`) VALUES ('Sonic Drive-In');
+INSERT INTO `restaurant` (`name`) VALUES ('Starbucks');
+INSERT INTO `restaurant` (`name`) VALUES ('Stix Restaurant');
+INSERT INTO `restaurant` (`name`) VALUES ('Subway');
+INSERT INTO `restaurant` (`name`) VALUES ('Sushi Village');
+INSERT INTO `restaurant` (`name`) VALUES ('Taco Bell');
+INSERT INTO `restaurant` (`name`) VALUES ('Taco Mama');
+INSERT INTO `restaurant` (`name`) VALUES ('Taquería Garnachitas');
+INSERT INTO `restaurant` (`name`) VALUES ('Taziki''s Mediterranean Cafe');
+INSERT INTO `restaurant` (`name`) VALUES ('The Filling Station');
+INSERT INTO `restaurant` (`name`) VALUES ('The Mac Shack');
+INSERT INTO `restaurant` (`name`) VALUES ('The Old Dowdle Gas & Pub');
+INSERT INTO `restaurant` (`name`) VALUES ('Top Hat Barbecue');
+INSERT INTO `restaurant` (`name`) VALUES ('TP''s Miller''s Bar & Grill');
+INSERT INTO `restaurant` (`name`) VALUES ('Waffle House');
+INSERT INTO `restaurant` (`name`) VALUES ('Wendy''s');
+INSERT INTO `restaurant` (`name`) VALUES ('Whataburger');
+INSERT INTO `restaurant` (`name`) VALUES ('White House Restaurant');
+INSERT INTO `restaurant` (`name`) VALUES ('Wingstop');
+INSERT INTO `restaurant` (`name`) VALUES ('Zaxbys');
+
